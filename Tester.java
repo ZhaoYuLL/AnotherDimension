@@ -14,5 +14,6 @@ public class Tester{
                   { 3,  3, 7 } };
     int[][] E = { {  2,  4, 2 }, {  2, 2, 2 } };
     System.out.println((ArrayOps.sum(B)));
+    System.out.println(ArrayOps.largest(B));
   }
 }
