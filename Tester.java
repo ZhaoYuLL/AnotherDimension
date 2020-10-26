@@ -15,5 +15,6 @@ public class Tester{
     int[][] E = { {  2,  4, 2 }, {  2, 2, 2 } };
     System.out.println((ArrayOps.sum(B)));
     System.out.println(ArrayOps.largest(B));
+    System.out.println(Arrays.toString(ArrayOps.sumRows(A)));
   }
 }
