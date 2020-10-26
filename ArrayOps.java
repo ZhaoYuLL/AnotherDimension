@@ -59,5 +59,15 @@ public class ArrayOps{
     }
     return arr;
   }
+  //5b
+  public static boolean isRowMagic(int[][] matrix){
+    int[] arr = sumRows(matrix);
+    for(int i = 1; i <arr.length; i ++){
+      if(arr[i] != arr[0]){
+        return false;
+      }
+    }
+    return true;
+  }
 
 }
