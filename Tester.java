@@ -11,16 +11,21 @@ public class Tester{
                   { 3, 4,  1, 2 } };
     int[][] D = { {  1,  1, 1 },
                   {  2, 2, 2 },
-                  { 3,  3, 7 } };
-    int[][] E = { {  2,  4, 2 }, {  2, 2, 2 } };
-    System.out.println((ArrayOps.sum(B)));
-    System.out.println(ArrayOps.largest(B));
-    System.out.println(Arrays.toString(ArrayOps.sumRows(A)));
-    System.out.println(Arrays.toString(ArrayOps.largestInRows(A)));
-    System.out.println(ArrayOps.sum(A));
-    System.out.println(Arrays.toString(ArrayOps.sumCols(A)));
-    System.out.println(ArrayOps.isRowMagic(C));
-    System.out.println(ArrayOps.isColMagic(D));
-    System.out.println(ArrayOps.isLocationMagic(E,0,1));
+                  { 3,  3, 3 } };
+    int[][] E = { {  2,  2, 2 }, {  2, 2, 2 } };
+    // System.out.println((ArrayOps.sum(B)));
+    // System.out.println(ArrayOps.largest(B));
+    // System.out.println(Arrays.toString(ArrayOps.sumRows(A)));
+    // System.out.println(Arrays.toString(ArrayOps.largestInRows(A)));
+    // System.out.println(ArrayOps.sum(A));
+    // System.out.println(Arrays.toString(ArrayOps.sumCols(A)));
+    // System.out.println(ArrayOps.isRowMagic(C));
+    // System.out.println(ArrayOps.isColMagic(D));
+    // System.out.println(ArrayOps.isLocationMagic(E,0,1));
+    // System.out.println(ArrayOps.isRowMagic(D));
+    // System.out.println(ArrayOps.isColMagic(C));
+    // System.out.println(ArrayOps.isRowMagic(E));
+    // System.out.println(ArrayOps.isColMagic(E));
+    // System.out.println(ArrayOps.isLocationMagic(E,1,1));
   }
 }
